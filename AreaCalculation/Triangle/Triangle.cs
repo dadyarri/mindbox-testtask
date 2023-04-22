@@ -8,7 +8,12 @@ public class Triangle : IFigure<TriangleInfo>
 
     public Triangle(TriangleInfo figureInfo)
     {
-        _figureInfo = figureInfo;
+        if (IsTrianglePossible(figureInfo))
+        {
+            _figureInfo = figureInfo;
+        }
+
+        throw new ArgumentException("Triangle with this sides is impossible");
     }
 
     public double CalculateArea()
@@ -17,7 +22,7 @@ public class Triangle : IFigure<TriangleInfo>
         {
             var cathets = new List<double> { _figureInfo.SideA, _figureInfo.SideB, _figureInfo.SideC }
                 .OrderBy(s => s).Take(2).ToList();
-            
+
             return (cathets[0] * cathets[1]) / 2;
         }
 
@@ -38,5 +43,12 @@ public class Triangle : IFigure<TriangleInfo>
             (_figureInfo.SideC * _figureInfo.SideC + _figureInfo.SideB * _figureInfo.SideB ==
              _figureInfo.SideA * _figureInfo.SideA)
         );
+    }
+
+    private bool IsTrianglePossible(TriangleInfo figureInfo)
+    {
+        return (figureInfo.SideA + figureInfo.SideB > figureInfo.SideC) &&
+               (figureInfo.SideA + figureInfo.SideC > figureInfo.SideB) &&
+               (figureInfo.SideB + figureInfo.SideC > figureInfo.SideA);
     }
 }
