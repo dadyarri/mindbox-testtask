@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c2dc8034-f002-4fe3-bb03-98cc1e63c39d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AreaCalculation/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AreaCalculation/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AreaCalculation/.idea/indexLayout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AreaCalculation/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AreaCalculation.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AreaCalculation.sln.DotSettings.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AreaCalculation/AreaCalculation.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AreaCalculation/Circle/Circle.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AreaCalculation/Circle/CircleInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AreaCalculation/Interfaces/IFigure.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AreaCalculation/Interfaces/IFigureInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AreaCalculation/Triangle/Triangle.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AreaCalculation/Triangle/TriangleInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AreaCalculationTests.Unit/AreaCalculationTests.Unit.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AreaCalculationTests.Unit/CircleTest.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AreaCalculationTests.Unit/TriangleTest.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AreaCalculationTests.Unit/Usings.cs" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock://D:/Projects/AreaCalculation/AreaCalculation/Circle/Circle.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Projects/AreaCalculation/AreaCalculation/Circle/CircleInfo.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Projects/AreaCalculation/AreaCalculation/Triangle/Triangle.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Projects/AreaCalculation/AreaCalculation/Triangle/Triangle.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="Toolset" />
+  </component>
+  <component name="ProjectId" id="2OnLvotc2W9HOXSCBws9tEEpdat" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "C:\\Users\\dadya\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\DecompilerCache",
+      "C:\\Users\\dadya\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\SourcesCache",
+      "C:\\Users\\dadya\\AppData\\Local\\Symbols\\src"
+    ]
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c2dc8034-f002-4fe3-bb03-98cc1e63c39d" name="Changes" comment="" />
+      <created>1682191633658</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1682191633658</updated>
+      <workItem from="1682191635854" duration="8224000" />
+    </task>
+    <task id="LOCAL-00001" summary="feat: initialize project">
+      <created>1682194530762</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1682194530762</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat: add basic interfaces">
+      <created>1682194542992</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1682194542992</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat: add interfaces implementation for circle">
+      <created>1682194562304</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1682194562304</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat: add implementation for triangle">
+      <created>1682194583539</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1682194583539</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat: add checks before creating triangle object">
+      <created>1682194950245</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1682194950245</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feat: add checks before creating circle object">
+      <created>1682195038072</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1682195038072</updated>
+    </task>
+    <task id="LOCAL-00007" summary="test: add project for unit tests">
+      <created>1682195063000</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1682195063000</updated>
+    </task>
+    <task id="LOCAL-00008" summary="fix: fix comparison">
+      <created>1682195767269</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1682195767269</updated>
+    </task>
+    <task id="LOCAL-00009" summary="fix: type">
+      <created>1682195772291</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1682195772291</updated>
+    </task>
+    <task id="LOCAL-00010" summary="deps: add fluent assertions">
+      <created>1682195785379</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1682195785379</updated>
+    </task>
+    <task id="LOCAL-00011" summary="fix: throwing exception">
+      <created>1682195855499</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1682195855499</updated>
+    </task>
+    <task id="LOCAL-00012" summary="test: add some tests for circle">
+      <created>1682196373679</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1682196373679</updated>
+    </task>
+    <task id="LOCAL-00013" summary="fix: some fixes">
+      <created>1682198335947</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1682198335947</updated>
+    </task>
+    <task id="LOCAL-00014" summary="test: add tests for triangle">
+      <created>1682198362667</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1682198362667</updated>
+    </task>
+    <task id="LOCAL-00015" summary="config: add testing configs">
+      <created>1682198392786</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1682198392786</updated>
+    </task>
+    <task id="LOCAL-00016" summary="docs: add some xmldocs">
+      <created>1682199199077</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1682199199077</updated>
+    </task>
+    <task id="LOCAL-00017" summary="feat: add readme">
+      <created>1682199555517</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1682199555517</updated>
+    </task>
+    <task id="LOCAL-00018" summary="feat: add launching info to readme">
+      <created>1682199763602</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1682199763602</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="feat: initialize project" />
+    <MESSAGE value="feat: add basic interfaces" />
+    <MESSAGE value="feat: add interfaces implementation for circle" />
+    <MESSAGE value="feat: add implementation for triangle" />
+    <MESSAGE value="feat: add checks before creating triangle object" />
+    <MESSAGE value="feat: add checks before creating circle object" />
+    <MESSAGE value="test: add project for unit tests" />
+    <MESSAGE value="fix: fix comparison" />
+    <MESSAGE value="fix: type" />
+    <MESSAGE value="deps: add fluent assertions" />
+    <MESSAGE value="fix: throwing exception" />
+    <MESSAGE value="test: add some tests for circle" />
+    <MESSAGE value="fix: some fixes" />
+    <MESSAGE value="test: add tests for triangle" />
+    <MESSAGE value="config: add testing configs" />
+    <MESSAGE value="docs: add some xmldocs" />
+    <MESSAGE value="feat: add readme" />
+    <MESSAGE value="feat: add launching info to readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add launching info to readme" />
+  </component>
+</project>
