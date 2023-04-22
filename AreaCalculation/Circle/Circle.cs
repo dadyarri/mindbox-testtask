@@ -12,8 +12,10 @@ public class Circle : IFigure<CircleInfo>
         {
             _figureInfo = figureInfo;
         }
-
-        throw new ArgumentException("Circle can't exist");
+        else
+        {
+            throw new ArgumentException("Circle can't exist");
+        }
     }
 
     public double CalculateArea()
