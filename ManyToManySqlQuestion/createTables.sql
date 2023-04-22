@@ -1,13 +1,13 @@
 create table category
 (
-    id   serial primary key,
-    name text
+    id   int identity(1,1) primary key,
+    name nvarchar(max)
 );
 
 create table product
 (
-    id   serial primary key,
-    name text
+    id   int identity(1,1) primary key,
+    name nvarchar(max)
 );
 
 create table category__product
@@ -17,20 +17,20 @@ create table category__product
     primary key (category_id, product_id)
 );
 
-insert into "category" (name)
+insert into category (name)
 values ('молочные продукты'),
        ('бытовые товары'),
        ('мясные продукты'),
        ('акция'),
        ('местный производитель');
 
-insert into "product" (name)
+insert into product (name)
 values ('молоко'),
        ('освежитель воздуха'),
        ('цыпленок гриль'),
        ('вода');
 
-insert into "category__product" (category_id, product_id)
+insert into category__product (category_id, product_id)
 values (1, 1),
        (4, 1),
        (5, 1),
