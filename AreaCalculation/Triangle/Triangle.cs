@@ -12,8 +12,10 @@ public class Triangle : IFigure<TriangleInfo>
         {
             _figureInfo = figureInfo;
         }
-
-        throw new ArgumentException("Triangle with this sides is impossible");
+        else
+        {
+            throw new ArgumentException("Triangle with this sides is impossible");
+        }
     }
 
     public double CalculateArea()
@@ -45,10 +47,10 @@ public class Triangle : IFigure<TriangleInfo>
         );
     }
 
-    private bool IsTrianglePossible(TriangleInfo figureInfo)
+    public static bool IsTrianglePossible(TriangleInfo figureInfo)
     {
-        return (figureInfo.SideA + figureInfo.SideB > figureInfo.SideC) &&
-               (figureInfo.SideA + figureInfo.SideC > figureInfo.SideB) &&
-               (figureInfo.SideB + figureInfo.SideC > figureInfo.SideA);
+        return (figureInfo.SideA + figureInfo.SideB >= figureInfo.SideC) &&
+               (figureInfo.SideA + figureInfo.SideC >= figureInfo.SideB) &&
+               (figureInfo.SideB + figureInfo.SideC >= figureInfo.SideA);
     }
 }
