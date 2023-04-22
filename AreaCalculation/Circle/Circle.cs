@@ -2,16 +2,20 @@
 
 namespace AreaCalculation.Circle;
 
-public class Circle: IFigure<CircleInfo>
+public class Circle : IFigure<CircleInfo>
 {
-    
     private readonly CircleInfo _figureInfo;
-    
+
     public Circle(CircleInfo figureInfo)
     {
-        _figureInfo = figureInfo;
+        if (figureInfo.Radius > 0)
+        {
+            _figureInfo = figureInfo;
+        }
+
+        throw new ArgumentException("Circle can't exist");
     }
-    
+
     public double CalculateArea()
     {
         return Math.PI * _figureInfo.Radius;
