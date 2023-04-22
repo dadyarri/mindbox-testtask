@@ -2,8 +2,11 @@
 
 namespace AreaCalculation.Triangle;
 
-public class Triangle : IFigure<TriangleInfo>
+public class Triangle : IFigure
 {
+    /// <summary>
+    /// Information, required for calculating triangle's area 
+    /// </summary>
     private readonly TriangleInfo _figureInfo;
 
     public Triangle(TriangleInfo figureInfo)
@@ -18,6 +21,7 @@ public class Triangle : IFigure<TriangleInfo>
         }
     }
 
+    /// <inheritdoc/>
     public double CalculateArea()
     {
         if (IsRightTriangle())
@@ -35,6 +39,12 @@ public class Triangle : IFigure<TriangleInfo>
                          (halfMeter - _figureInfo.SideC));
     }
 
+    /// <summary>
+    /// Checks if the triangle is right (has a 90 degrees angle)
+    /// </summary>
+    /// <returns>
+    /// Flag, which shows a "rightness" of the triangle
+    /// </returns>
     private bool IsRightTriangle()
     {
         return (
@@ -47,6 +57,11 @@ public class Triangle : IFigure<TriangleInfo>
         );
     }
 
+    /// <summary>
+    /// Checks if the triangle with passed sides is possible
+    /// </summary>
+    /// <param name="figureInfo">Information about sides of the triangle</param>
+    /// <returns>Flag, which shows possibilty of existence of the triangle</returns>
     public static bool IsTrianglePossible(TriangleInfo figureInfo)
     {
         return (figureInfo.SideA + figureInfo.SideB >= figureInfo.SideC) &&

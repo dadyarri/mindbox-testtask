@@ -2,8 +2,11 @@
 
 namespace AreaCalculation.Circle;
 
-public class Circle : IFigure<CircleInfo>
+public class Circle : IFigure
 {
+    /// <summary>
+    /// Information, required for calculating circle's area 
+    /// </summary>
     private readonly CircleInfo _figureInfo;
 
     public Circle(CircleInfo figureInfo)
@@ -18,6 +21,7 @@ public class Circle : IFigure<CircleInfo>
         }
     }
 
+    /// <inheritdoc/>
     public double CalculateArea()
     {
         return Math.PI * _figureInfo.Radius;
